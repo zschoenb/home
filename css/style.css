@@ -84,8 +84,22 @@ main h1, h2, h3, h4, h5 {
 }
 
 main h1 {
-  font-size: 24px;
-  margin-bottom: 0px;
+      float: left;
+      padding-left: 25px;
+      max-width: 960px;
+      min-height: 30px;
+      background-color: #fff;
+      vertical-align: top;
+      position:relative;
+      bottom:0;
+      clear:both;
+      margin-top: -30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display: block;
+      border-top-style: solid;
+      border-top-width: thin;
+      border-top-color: #888;
 }
 
 blockquote {
@@ -226,9 +240,10 @@ footer h1, h2, h3, h4, h5 {
     padding-right: 25px;
   }
 
-  #rdf {
-    display: none;
-  }
+#rdf {
+  width: 100%;
+  display: inline;
+}
 
 }
 
@@ -263,9 +278,22 @@ header {
   }
 
   main h1 {
-    float: left;
-    padding-left: 15px;
-    padding-right: 25px;
+      float: left;
+      padding-left: 25px;
+      max-width: 960px;
+      min-height: 30px;
+      background-color: #fff;
+      vertical-align: top;
+      position:relative;
+      bottom:0;
+      clear:both;
+      margin-top: -30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display: block;
+      border-top-style: solid;
+      border-top-width: thin;
+      border-top-color: #888;
   }
 
   main p {
@@ -293,7 +321,8 @@ header {
 }
 
 #rdf {
-  display: none;
+  width: 100%;
+  display: inline;
 }
 
 }
@@ -326,8 +355,22 @@ header {
   }
 
 main h1 {
-  padding-left: 15px;
-  padding-right: 15px;
+      float: left;
+      padding-left: 25px;
+      max-width: 960px;
+      min-height: 30px;
+      background-color: #fff;
+      vertical-align: top;
+      position:relative;
+      bottom:0;
+      clear:both;
+      margin-top: -30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display: block;
+      border-top-style: solid;
+      border-top-width: thin;
+      border-top-color: #888;
 }
 
 main p {
