@@ -352,6 +352,10 @@ main p {
   display: ruby-text;
 }
 
+#rdf li {
+  display: inline;
+}
+
 #rdf a {
   color: #CC082C;
   font-family: Arial, Helvetica, sans-serif;
