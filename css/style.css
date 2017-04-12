@@ -339,11 +339,13 @@ main p {
   border-color: black;
   margin-top: 15px;
   margin-right: 15px;
-  float: right;
+  float: bottom;
   width: 20%;
   min-height: 150px;
   position: relative;
   padding-top: 18px;
+
+
 }
 
 #rdf h1 {
