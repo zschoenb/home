@@ -1,41 +1,86 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Home by zschoenb</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <title>Zachary Schoenberger</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="alternate" type="application/json" href="index.jsonld">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script type="application/ld+json">
+    [
+    {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "url": "206.167.181.123:80",
+        "name": "Zacjary Schoenberger",
+        "jobTitle": "Metadata Analyst",
+        "worksFor": {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "University of Alberta Libraries",
+            "url": "http://library.ualberta.ca"
+        },
+        "email" : "mailto:zschoenb@ualberta.ca",
+        "sameAs": [
+            "https://twitter.com/zschoenb",
+            "https://www.linkedin.com/in/zacksonline/",
+            "https://github.com/zschoenb",
+            "https://orcid.org/0000-0003-4007-260X"
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "206.167.181.123:80",
+        "name": "Zachary Schoenberger",
+        "license" : "http://creativecommons.org/licenses/by/4.0/"
+    }
+    ]
+    </script>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Home</h1>
-        <p></p>
+    <header>
+      <div id="header">
+        <h1><a href="206.167.181.123:80">Zachary Schoenberger</a></h1>
+      </div>
 
-        <p class="view"><a href="https://github.com/zschoenb/home">View the Project on GitHub <small>zschoenb/home</small></a></p>
-
-
+      <nav id="top-menu">
         <ul>
-          <li><a href="https://github.com/zschoenb/home/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/zschoenb/home/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/zschoenb/home">View On <strong>GitHub</strong></a></li>
+          <li><a href="https://twitter.com/zacschoen" target="_blank"><img src="image/twitter2.png" alt="twitter" title="twitter" class="social-icons"></a></li>
+          <li><a href="http://github.com/zschoenb" target="_blank"><img src="image/github2.png" alt="github" title="github" class="social-icons"></a></li>
+          <li><a href="https://www.linkedin.com/in/zacksonline/" target="_blank"><img src="image/linkedIn2.png" alt="linkedIn" title="linkedIn" class="social-icons"></a></li>
+          <li><a href="https://orcid.org/0000-0003-4007-260X" target="_blank"><img src="image/orcid2.png" alt="orcid" title="orcid" class="social-icons"></a></li>          
         </ul>
-      </header>
-      <section>
-        <p>This is my page</p>
+      </nav>
+    </header>
+
+    <main>
+      <section class="content-box">
+        <p>I am a Metadata Analyst at <a href="http://library.ualberta.ca" target="_blank">University of Alberta Libraries</a> where I do all things metadata. I provide support for database technologies, help coordinate metadata consultation for the UAlberta Libraries and research communities, and explore new technologies that may impact metadata-related services. My research interests range from metadata sharing and reuse to semantic web technologies. I am particularly fascinated with <a href="http://www.w3.org/RDF" target="_blank">RDF</a>, <a href="http://www.w3.org/TR/rdf-schema" target="_blank">RDFS</a>, <a href="http://www.w3.org/TR/owl2-overview" target="_blank">OWL</a>, and related technologies.</p>
+        <p>Outside of work I enjoy tinkering with code. Check out my <a href="http://github.com/zschoenb" target="_blank">github account</a> for more about that.</p>
+        <p>Is your data messy? Do you need help building a database or enhancing the SEO of your website? Check out my freelance page.</p>
       </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/zschoenb">zschoenb</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
+    </main>
+
+      <aside id="rdf">
+        <header>
+          <h1>RDF for this page</h1>
+        </header>
+        <ul>
+          <li><a href="http://rdf-translator.appspot.com/convert/json-ld/xml/html/http%3A%2F%2F206.167.181.123:802Findex.jsonld" target="_blank">RDF/XML</a></li>
+          <li><a href="http://rdf-translator.appspot.com/convert/json-ld/nt/html/http%3A%2F%2Fj206.167.181.123:80%2Findex.jsonld" target="_blank">RDF/N-Triples</a></li>
+          <li><a href="http://rdf-translator.appspot.com/convert/json-ld/json-ld/html/http%3A%2F%2F206.167.181.123:80%2Findex.jsonld" target="_blank">JSON-LD</a></li>
+        </ul>
+      </aside>
+
+    <footer>
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/4.0/88x31.png" id="license" /></a>
+    </footer>
   </body>
+  <!-- Html and CSS inspired by http://jacobshelby.org/-->
 </html>
