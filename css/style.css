@@ -69,6 +69,9 @@ main a {
 
 main p {
   font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 main li {
@@ -76,31 +79,16 @@ main li {
 }
 
 main ul {
-  list-style-type: none;
+  display: inline-grid;
+  text-align: center;
+  width: 100%;
 }
 
 main h1, h2, h3, h4, h5 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-main h1 {
-      float: left;
-      padding-left: 25px;
-      max-width: 960px;
-      min-height: 30px;
-      background-color: #fff;
-      vertical-align: top;
-      position:relative;
-      bottom:0;
-      clear:both;
-      margin-top: -30px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      display: block;
-      border-top-style: solid;
-      border-top-width: thin;
-      border-top-color: #888;
-}
+
 
 blockquote {
   font-family: Arial, Helvetica, sans-serif;
@@ -196,29 +184,10 @@ footer h1, h2, h3, h4, h5 {
      float:left;
     }
 
-    main h1 {
-      float: left;
-      padding-left: 25px;
-      max-width: 960px;
-      min-height: 30px;
-      background-color: #fff;
-      vertical-align: top;
-      position:relative;
-      bottom:0;
-      clear:both;
-      margin-top: -30px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      display: block;
-      border-top-style: solid;
-      border-top-width: thin;
-      border-top-color: #888;
-
-    }
-
     main p {
       padding-left: 25px;
       padding-right: 25px;
+      text-align: justify;
     }
 
     main li, blockquote {
@@ -240,10 +209,6 @@ footer h1, h2, h3, h4, h5 {
     padding-right: 25px;
   }
 
-#rdf {
-  width: 100%;
-  display: inline;
-}
 
 }
 
@@ -277,28 +242,10 @@ header {
    float: left;
   }
 
-  main h1 {
-      float: left;
-      padding-left: 25px;
-      max-width: 960px;
-      min-height: 30px;
-      background-color: #fff;
-      vertical-align: top;
-      position:relative;
-      bottom:0;
-      clear:both;
-      margin-top: -30px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      display: block;
-      border-top-style: solid;
-      border-top-width: thin;
-      border-top-color: #888;
-  }
-
   main p {
     padding-left: 25px;
     padding-right: 25px;
+    text-align: justify;
   }
 
   main li, blockquote {
@@ -320,10 +267,6 @@ header {
   padding-right: 25px;
 }
 
-#rdf {
-  width: 100%;
-  display: inline;
-}
 
 }
 
@@ -354,28 +297,10 @@ header {
    float: left;
   }
 
-main h1 {
-      float: left;
-      padding-left: 25px;
-      max-width: 960px;
-      min-height: 30px;
-      background-color: #fff;
-      vertical-align: top;
-      position:relative;
-      bottom:0;
-      clear:both;
-      margin-top: -30px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      display: block;
-      border-top-style: solid;
-      border-top-width: thin;
-      border-top-color: #888;
-}
-
 main p {
   padding-left: 25px;
   padding-right: 25px;
+  text-align: justify;
 }
 
 .content-box {
@@ -390,11 +315,6 @@ main p {
 .content-box p {
   padding-left: 25px;
   padding-right: 25px;
-}
-
-#rdf {
-  width: 100%;
-  display: inline;
 }
 
 
