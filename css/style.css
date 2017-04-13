@@ -11,7 +11,7 @@ html, body {
 
 body {
   max-width: 840px;
-  background-color: #fff;
+  background-color: #e5f7ff;
   margin: 0;
   line-height: 1.5;
   overflow-x: hidden;
@@ -57,7 +57,7 @@ body {
   }
 
 #top-menu a {
-  color: #fff;
+  color: #e5f7ff;
   display: block;
   padding: 10px;
 }
@@ -81,6 +81,7 @@ main ul {
 
 main li {
   display: inline-grid;
+  margin-right: 10px;
 }
 
 
@@ -100,7 +101,7 @@ main h1, h2, h3, h4, h5 {
 footer {
   max-width: 960px;
   min-height: 30px;
-  background-color: #fff;
+  background-color: #e5f7ff;
   vertical-align: top;
   position:relative;
   bottom:0;
@@ -153,7 +154,7 @@ footer h1, h2, h3, h4, h5 {
     width: 100%;
     display:block;
     vertical-align: top;
-    background-color: #fff;
+    background-color: #e5f7ff;
     margin-top: -16px;
   }
 
@@ -174,7 +175,7 @@ footer h1, h2, h3, h4, h5 {
     main {
      width: 100%;
      vertical-align: top;
-     background-color: #fff;
+     background-color: #e5f7ff;
      float:left;
     }
 
@@ -190,6 +191,7 @@ footer h1, h2, h3, h4, h5 {
 
     main li {
       display: inline-grid;
+      margin-right: 10px;
     }
 
   .content-box {
@@ -216,7 +218,7 @@ header {
   width: 100%;
   display:block;
   vertical-align: top;
-  background-color: #fff;
+  background-color: #e5f7ff;
   margin-top: -32px;
 }
 
@@ -236,7 +238,7 @@ header {
   main {
    width: 100%;
    vertical-align: top;
-   background-color: #fff;
+   background-color: #e5f7ff;
    float: left;
   }
 
@@ -252,6 +254,7 @@ header {
 
   main li { 
     display: inline-grid;
+    margin-right: 10px;
   }
 
   
@@ -296,7 +299,7 @@ header {
   main {
    width: 100%;
    vertical-align: top;
-   background-color: #fff;
+   background-color: #e5f7ff;
    float: left;
   }
 
