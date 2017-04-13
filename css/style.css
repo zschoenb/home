@@ -113,7 +113,7 @@ footer {
   border-top-style: solid;
   border-top-width: thin;
   border-top-color: #888;
-  }
+}
 
 footer * {
   margin: 0;
@@ -166,33 +166,34 @@ footer h1, h2, h3, h4, h5 {
     font-size: 24px;  
     margin-bottom: -5px;
     text-align: center;
-    }
+  }
 
-    .social-icons {
-      height: 40px;
-    }
+  .social-icons {
+    height: 40px;
+  }
 
-    main {
-     width: 100%;
-     vertical-align: top;
-     background-color: #fff;
-     float:left;
-    }
+  main {
+    width: 100%;
+    vertical-align: top;
+    background-color: #fff;
+    float:left;
+    padding-top: 20px;
+  }
 
-    main p {
-      padding-left: 25px;
-      padding-right: 25px;
-      text-align: justify;
-    }
+  main p {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+  }
 
-    main ul {
-      padding: 25px;
-    }
+  main ul {
+    padding: 25px;
+  }
 
-    main li {
-      display: inline-grid;
-      margin-right: 10px;
-    }
+  main li {
+    display: inline-grid;
+    margin-right: 10px;
+  }
 
   .content-box {
     width: 100%;
@@ -209,37 +210,37 @@ footer h1, h2, h3, h4, h5 {
     padding-right: 25px;
   }
 
-
 }
 
 @media only screen and (min-width: 444px) and (max-width: 768px) {
 
-header {
-  width: 100%;
-  display:block;
-  vertical-align: top;
-  background-color: #e5f7ff;
-  margin-top: -32px;
-}
+  header {
+    width: 100%;
+    display:block;
+    vertical-align: top;
+    background-color: #e5f7ff;
+    margin-top: -32px;
+  }
 
-#header {
-  padding-top: 10px;
-}
+  #header {
+    padding-top: 10px;
+  }
 
-#header h1 {
-  font-size: 36px;
-  text-decoration: none;
-  margin-bottom: -5px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  #header h1 {
+    font-size: 36px;
+    text-decoration: none;
+    margin-bottom: -5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   main {
-   width: 100%;
-   vertical-align: top;
-   background-color: #fff;
-   float: left;
+    width: 100%;
+    vertical-align: top;
+    background-color: #fff;
+    float: left;
+    padding-top: 20px;
   }
 
   main p {
@@ -258,72 +259,71 @@ header {
   }
 
   
-.content-box {
-  width: 100%;
-  float: left;
-}
+  .content-box {
+    width: 100%;
+    float: left;
+  }
 
-.content-box h1, h2, h3, h4, h5 {
-  padding-left: 15px;
-  padding-right: 25px;
-}
+  .content-box h1, h2, h3, h4, h5 {
+    padding-left: 15px;
+    padding-right: 25px;
+  }
 
-.content-box p {
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
+  .content-box p {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 
 }
 
 
 @media only screen and (min-width: 769px) {
 
-header {
-  width: 100%;
-  display:block;
-  vertical-align: top;
-  position: relative;
-  margin-top: -32px;
-}
+  header {
+    width: 100%;
+    display:block;
+    vertical-align: top;
+    position: relative;
+    margin-top: -32px;
+  }
 
-#header h1 {
-  font-size: 48px;
-  text-decoration: none;
-  margin-bottom: -5px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 20px; 
+  #header h1 {
+    font-size: 48px;
+    text-decoration: none;
+    margin-bottom: -5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px; 
   }
 
   main {
-   width: 100%;
-   vertical-align: top;
-   background-color: #fff;
-   float: left;
+    width: 100%;
+    vertical-align: top;
+    background-color: #fff;
+    float: left;
+    padding-top: 20px;
   }
 
-main p {
-  padding-left: 25px;
-  padding-right: 25px;
-  text-align: justify;
-}
+  main p {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+  }
 
-.content-box {
-  width: 100%;
-}
+  .content-box {
+    width: 100%;
+  }
 
-.content-box h1, h2, h3, h4, h5 {
-  padding-left: 15px;
-  padding-right: 15px;
-}
+  .content-box h1, h2, h3, h4, h5 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
-.content-box p {
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
+  .content-box p {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 
 }
 
