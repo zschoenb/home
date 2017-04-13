@@ -1,0 +1,29 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "url": "http://zschoenb.github.io/home/",
+        "name": "Zachary Schoenberger",
+        "jobTitle": "Metadata Analyst",
+        "worksFor": {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "University of Alberta",
+            "url": "http://library.ualberta.ca"
+        },
+        "email" : "mailto:zschoenb@ualberta.ca",
+        "sameAs": [
+            "https://twitter.com/zschoenb",
+            "https://www.linkedin.com/in/zacksonline/",
+            "http://github.com/zschoenb",
+            "https://orcid.org/0000-0003-4007-260X"
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "http://zschoenb.github.io/home/",
+        "name": "Zachary Schoenberger",
+        "license" : "http://creativecommons.org/licenses/by/4.0/"
+    }
+]

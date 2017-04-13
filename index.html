@@ -11,84 +11,36 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <script type="application/ld+json">
-   [
-  {
-    "@type": [
-      "http://schema.org/Person"
-    ],
-    "http://schema.org/email": [
-      {
-        "@value": "mailto:zschoenb@ualberta.ca"
-      }
-    ],
-    "http://schema.org/jobTitle": [
-      {
-        "@value": "Metadata Analyst"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Zachary Schoenberger"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "https://twitter.com/zschoenb"
-      },
-      {
-        "@id": "https://www.linkedin.com/in/zacksonline/"
-      },
-      {
-        "@id": "https://github.com/zschoenb"
-      },
-      {
-        "@id": "https://orcid.org/0000-0003-4007-260X"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "http://json-ld.org/playground/zschoenb.github.io/home/index.html"
-      }
-    ],
-    "http://schema.org/worksFor": [
-      {
-        "@type": [
-          "http://schema.org/Organization"
-        ],
-        "http://schema.org/name": [
-          {
-            "@value": "University of Alberta Libraries"
-          }
-        ],
-        "http://schema.org/url": [
-          {
-            "@id": "http://library.ualberta.ca"
-          }
+    
+    [
+    {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "url": "http://zschoenb.github.io/home/",
+        "name": "Zachary Schoenberger",
+        "jobTitle": "Metadata Analyst",
+        "worksFor": {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "University of Alberta",
+            "url": "http://library.ualberta.ca"
+        },
+        "email" : "mailto:zschoenb@ualberta.ca",
+        "sameAs": [
+            "https://twitter.com/zschoenb",
+            "https://www.linkedin.com/in/zacksonline/",
+            "http://github.com/zschoenb",
+            "https://orcid.org/0000-0003-4007-260X"
         ]
-      }
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "http://zschoenb.github.io/home/",
+        "name": "Zachary Schoenberger",
+        "license" : "http://creativecommons.org/licenses/by/4.0/"
+    }
     ]
-  },
-  {
-    "@type": [
-      "http://schema.org/WebSite"
-    ],
-    "http://schema.org/license": [
-      {
-        "@id": "http://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Zachary Schoenberger"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "http://json-ld.org/playground/zschoenb.github.io/home/index.html"
-      }
-    ]
-  }
-]
     </script>
   </head>
 
